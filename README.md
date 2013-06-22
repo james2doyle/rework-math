@@ -49,7 +49,7 @@ Just add the unit you want at the end of the function. Like so:
 
 ```css
 .header {
-  font-size: math((2 * 14px));
+  font-size: math(2 * 14px);
 }
 ```
 
