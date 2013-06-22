@@ -17,7 +17,7 @@ div {
 }
 ```
 
-### using rework-vars
+### using [rework-vars](https://github.com/visionmedia/rework-vars)
 
 ```css
 :root {
