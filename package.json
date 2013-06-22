@@ -1,0 +1,19 @@
+{
+  "name": "rework-math",
+  "version": "1.0.0",
+  "author": "James Doyle",
+  "description": "math plugin for the Rework CSS preprocessing library",
+  "keywords": [
+    "css",
+    "rework",
+    "mathematics",
+    "calc",
+    "calculation",
+    "math"
+  ],
+  "repository": "https://github.com/james2doyle/rework-math",
+  "license": "MIT",
+  "dependencies": {
+    "rework-visit": "*"
+  }
+}
