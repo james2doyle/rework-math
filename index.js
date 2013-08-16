@@ -33,7 +33,7 @@ module.exports = function() {
   return function math(style) {
     visit(style, function(declarations, node) {
       declarations.forEach(function(decl) {
-        if (!decl.value.match(/\bmath\(/)) {
+        if (!decl.value || !decl.value.match(/\bmath\(/)) {
           return;
         }
         decl.value = substitute(decl);
